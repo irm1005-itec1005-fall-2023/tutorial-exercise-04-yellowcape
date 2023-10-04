@@ -6,6 +6,8 @@
  */
 
 .flex-container {
+  display: flex;
+  justify-content: space-between;
   /* 1. Add a display flex property so the items are layed out in a row */
 
   /* 2. Add a justify-content property so that the red box is on the right side */

@@ -7,6 +7,10 @@
 
  .flex-container {
   height: 600px;
+  display: flex;
+  flex-direction: column-reverse;
+  justify-content: start;
+  align-items: center;
 
   /* 1. Add a display flex property so the items are layed out in a row */
 
@@ -20,6 +24,7 @@
 .item:nth-child(2) {
   background-color: #f1faee;
   color: #242121;
+  flex-grow: 1;
 
   /* 5. Use the flex-grow property to make the second box grow to fill the remaining space */
 }
