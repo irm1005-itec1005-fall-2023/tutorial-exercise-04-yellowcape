@@ -7,6 +7,10 @@
 
  .flex-container {
   height: 400px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 
   /* 1. Add a display flex property so the items are layed out in a row */
 

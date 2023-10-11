@@ -7,6 +7,10 @@
 
  .flex-container {
   height: 400px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
 
   /* 1. Add a display flex property so the items are layed out in a row */
 
@@ -21,6 +25,12 @@
 .nested-flex-container {
   background-color: #e63946;
   padding: 40px;
+  flex-grow: 1;
+  display: flex;
+  flex-direction: row;
+  justify-content: end;
+  border-radius: 10px;
+
 
   /* 5. Add a flex-grow property and set it to 1 so that the flex box item takes the full amount of space available */
 
